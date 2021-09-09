@@ -1,0 +1,109 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background: rgb(148, 146, 146);
+}
+.cabecera{
+    background:white;
+}
+.logo{
+    width: 200px;
+    margin-left: 150px;
+}
+.titulo{
+    display:contents;
+}
+.servicios{
+    background: rgb(129, 129, 25);
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+}
+.padre{
+    display: flex;
+}
+/* ____________________________menú navegación_______________________________ */
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-enlace{
+    display: inline-block;
+    text-decoration: none;
+    background: cadetblue;
+    padding: 10px 30px;
+    margin: 0px 3px;
+}
+.nav-enlace:hover{
+    background: lightcoral;
+}
+@media (max-width: 600px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 2px 0px;
+    }
+}
+/* ___________________________Servicios_______________________________ */
+
+
+
+/* ___________________________Noticias_______________________________ */
+.noticias{
+    /* margin: 0 auto; */
+    /* padding: auto; */
+
+    display: flex;
+}
+.titular{
+    display: flex;
+}
+.imagen-noticias{
+    width: 200px;
+    display: flex;
+}
+.noticia{
+    background:rgb(36, 122, 62);
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 30px;
+
+}
+.noticia img{
+    float: left;
+    margin: 15px;
+}
+/* ___________________________Equipo_______________________________ */
+.equipo{
+    margin: 0 auto;
+}
+.imagen-equipo{
+    height: 200px;
+    border-radius: 15px;
+}
+.empanada{
+    display: flex;
+}
+.tripulante{
+    background:rgb(73, 138, 235);
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px darkblue;
+}
+/* ___________________________pie de pagina_______________________________ */
+.pie{
+    background: rgb(26, 25, 25);
+    color: rgb(159, 161, 161);
+}
+.iframe3{
+    width: 100% !important;
+    height: 650px;
+    border: none;
+}
+.iframe5{
+    width: 100% !important;
+    height: 430px;
+    border: none;
+}
