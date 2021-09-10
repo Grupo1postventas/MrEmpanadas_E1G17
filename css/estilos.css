@@ -1,7 +1,66 @@
 body{
     font-family: 'Nunito', sans-serif;
-    background: rgb(148, 146, 146);
+    /* background: rgb(148, 146, 146); */
+    background: #ffff;
+    margin: 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
+.espacios{
+    height: 100vh;
+}
+#navbar{
+    padding-right: 60px;
+}
+#header{
+    padding-top: 100px;
+}
+#services{
+    padding-top: 95px;
+}
+#news{
+    padding-top: 75px;
+}
+#team{
+    padding-top: 75px;
+}
+/* ____________________________menú navegación_______________________________ */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.nav-enlace{
+    display: inline-block;
+    text-decoration: none;
+    background: cadetblue;
+    padding: 10px 30px;
+    margin: 0px 3px;
+    border-radius: 5px;
+}
+.nav-enlace:hover{
+    background: lightcoral;
+    transition: all 0.3s linear; 
+}
+@media (max-width: 600px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 2px 0px;
+    }
+}
+#navbar img{
+    height: 50px;
+    padding-left: 10rem;
+    position: fixed;
+    left: 0;
+}
+/* ____________________________1Cabecera_______________________________ */
 .cabecera{
     background:white;
 }
@@ -12,47 +71,18 @@ body{
 .titulo{
     display:contents;
 }
+/* ___________________________2Servicios_______________________________ */
 .servicios{
     background: rgb(129, 129, 25);
     padding: 20px;
     width: 30%;
     margin: 10px;
 }
-.padre{
+.padre_servicios{
     display: flex;
 }
-/* ____________________________menú navegación_______________________________ */
-nav{
-    display: flex;
-    justify-content: flex-end;
-}
-.nav-enlace{
-    display: inline-block;
-    text-decoration: none;
-    background: cadetblue;
-    padding: 10px 30px;
-    margin: 0px 3px;
-}
-.nav-enlace:hover{
-    background: lightcoral;
-}
-@media (max-width: 600px){
-    nav{
-        flex-direction: column;
-    }
-    .nav-enlace{
-        margin: 2px 0px;
-    }
-}
-/* ___________________________Servicios_______________________________ */
-
-
-
-/* ___________________________Noticias_______________________________ */
+/* ___________________________3Noticias_______________________________ */
 .noticias{
-    /* margin: 0 auto; */
-    /* padding: auto; */
-
     display: flex;
 }
 .titular{
@@ -73,16 +103,14 @@ nav{
     float: left;
     margin: 15px;
 }
-/* ___________________________Equipo_______________________________ */
+/* ___________________________4Equipo_______________________________ */
 .equipo{
     margin: 0 auto;
+    display: flex;
 }
 .imagen-equipo{
     height: 200px;
     border-radius: 15px;
-}
-.empanada{
-    display: flex;
 }
 .tripulante{
     background:rgb(73, 138, 235);
@@ -92,8 +120,10 @@ nav{
     border-radius: 20px;
     box-shadow: 3px 3px 2px darkblue;
 }
-/* ___________________________pie de pagina_______________________________ */
+/* ___________________________5Footer_______________________________ */
 .pie{
+    text-align: center;
+    padding: 0.6rem 0;
     background: rgb(26, 25, 25);
     color: rgb(159, 161, 161);
 }
