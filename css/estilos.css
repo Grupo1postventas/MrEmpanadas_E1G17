@@ -65,8 +65,9 @@ nav{
     background:white;
 }
 .logo{
-    width: 200px;
-    margin-left: 150px;
+    width: 60%;
+    margin: 5rem auto;
+    margin-left: 17rem;
 }
 .titulo{
     display:contents;
@@ -80,16 +81,25 @@ nav{
 }
 .padre_servicios{
     display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* max-width: 900px; */
+}
+.logo_servicio{
+    width: 70%;
+    margin-left: 17%;
 }
 /* ___________________________3Noticias_______________________________ */
 .noticias{
     display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 .titular{
     display: flex;
 }
 .imagen-noticias{
-    width: 200px;
+    width: 150px;
     display: flex;
 }
 .noticia{
@@ -105,17 +115,19 @@ nav{
 }
 /* ___________________________4Equipo_______________________________ */
 .equipo{
-    margin: 0 auto;
     display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 .imagen-equipo{
-    height: 200px;
+    height: 140px;
     border-radius: 15px;
+    margin-left: 15px;
 }
 .tripulante{
     background:rgb(73, 138, 235);
     border: 1px solid #333;
-    margin: 10px;
+    margin: 7px;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 3px 3px 2px darkblue;
@@ -123,7 +135,7 @@ nav{
 /* ___________________________5Footer_______________________________ */
 .pie{
     text-align: center;
-    padding: 0.6rem 0;
+    padding: 0.65rem 0;
     background: rgb(26, 25, 25);
     color: rgb(159, 161, 161);
 }
