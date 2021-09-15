@@ -1,32 +1,33 @@
-body{
+body {
+    max-width: 1400px;
+    min-width: 375px;
     font-family: 'Nunito', sans-serif;
-    /* background: rgb(148, 146, 146); */
     background: #ffff;
     margin: 0%;
 }
-html{
+html {
     scroll-behavior: smooth;
 }
-.espacios{
+.espacios {
     height: 100vh;
 }
-#navbar{
+#navbar {
     padding-right: 60px;
 }
-#header{
+#header {
     padding-top: 100px;
 }
-#services{
+#services {
     padding-top: 95px;
 }
-#news{
+#news {
     padding-top: 75px;
 }
-#team{
+#team {
     padding-top: 75px;
 }
 /* ____________________________menú navegación_______________________________ */
-nav{
+nav {
     display: flex;
     justify-content: flex-end;
     padding-top: 20px;
@@ -34,7 +35,7 @@ nav{
     right: 0;
     top: 0;
 }
-.nav-enlace{
+.nav-enlace {
     display: inline-block;
     text-decoration: none;
     background: cadetblue;
@@ -42,90 +43,83 @@ nav{
     margin: 0px 3px;
     border-radius: 5px;
 }
-.nav-enlace:hover{
-    background: lightcoral;
-    transition: all 0.3s linear; 
+.nav-enlace:hover {
+    background: rgb(180, 10, 10);
+    transition: all 0.3s linear;
 }
-@media (max-width: 600px){
-    nav{
+@media (max-width: 600px) {
+    nav {
         flex-direction: column;
     }
-    .nav-enlace{
+
+    .nav-enlace {
         margin: 2px 0px;
     }
 }
-#navbar img{
+#navbar img {
     height: 50px;
     padding-left: 10rem;
     position: fixed;
     left: 0;
 }
-/* ____________________________1Cabecera_______________________________ */
-.cabecera{
-    background:white;
-}
-.logo{
+/* ____________________________1Imagen Grande_______________________________ */
+.logo {
     width: 60%;
     margin: 5rem auto;
     margin-left: 17rem;
 }
-.titulo{
-    display:contents;
-}
 /* ___________________________2Servicios_______________________________ */
-.servicios{
-    background: rgb(129, 129, 25);
+.servicios {
+    background: rgb(201, 151, 14);
     padding: 20px;
     width: 30%;
     margin: 10px;
 }
-.padre_servicios{
+.padre_servicios {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    /* max-width: 900px; */
 }
-.logo_servicio{
+.logo_servicio {
     width: 70%;
     margin-left: 17%;
 }
 /* ___________________________3Noticias_______________________________ */
-.noticias{
+.noticias {
     display: flex;
     width: 80%;
     margin: 0 auto;
 }
-.titular{
+.titular {
     display: flex;
 }
-.imagen-noticias{
+.imagen-noticias {
     width: 150px;
     display: flex;
 }
-.noticia{
-    background:rgb(36, 122, 62);
+.noticia {
+    background: rgb(36, 122, 62);
     border: 1px solid #333;
     margin: 10px;
     padding: 30px;
-
 }
-.noticia img{
+.noticia img {
     float: left;
     margin: 15px;
 }
 /* ___________________________4Equipo_______________________________ */
-.equipo{
+.equipo {
     display: flex;
     width: 80%;
     margin: 0 auto;
 }
-.imagen-equipo{
+.imagen-equipo {
     height: 140px;
     border-radius: 15px;
     margin-left: 15px;
 }
-.tripulante{
-    background:rgb(73, 138, 235);
+.tripulante {
+    background: rgb(73, 138, 235);
     border: 1px solid #333;
     margin: 7px;
     padding: 30px;
@@ -133,19 +127,30 @@ nav{
     box-shadow: 3px 3px 2px darkblue;
 }
 /* ___________________________5Footer_______________________________ */
-.pie{
-    text-align: center;
-    padding: 0.65rem 0;
-    background: rgb(26, 25, 25);
-    color: rgb(159, 161, 161);
+.pie {
+    background-color: #191c36;
+    height: auto;
+    display: flex;
+    color: rgb(194, 192, 192);
+    justify-content: space-evenly;
 }
-.iframe3{
+/* ___________________________iFrames_______________________________ */
+.iframe2 {
+    width: 100% !important;
+    height: 580px;
+    border: none;
+}
+.iframe3 {
     width: 100% !important;
     height: 650px;
     border: none;
 }
-.iframe5{
+.iframe4 {
     width: 100% !important;
-    height: 430px;
+    height: 480px;
     border: none;
+}
+.iframe5 {
+    width: 100% !important;
+    height: 217px;
 }
